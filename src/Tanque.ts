@@ -2,6 +2,6 @@ import { Item } from "./Item";
 
 export class Tanque extends Item {
     constructor() {
-        super(2);
+        super(200);
     }
 }

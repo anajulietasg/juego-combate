@@ -7,7 +7,7 @@ describe("Tanque", () => {
         expect(tanque.estaVivo()).toBe(true);
     });
 
-    test("Debe morir al recibir disparos", () => {
+    test("Debe morir al recibir 2 disparos", () => {
         const tanque = new Tanque();
         tanque.recibirDisparo();
         tanque.recibirDisparo();

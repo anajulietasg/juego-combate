@@ -6,7 +6,7 @@ export abstract class Item {
   }
 
   recibirDisparo(): void {
-    this._vida -= 1;  //cada disparo quita 1 de vida
+    this._vida -= 100;  //cada disparo quita 1 de vida
   }
 
   estaVivo(): boolean {

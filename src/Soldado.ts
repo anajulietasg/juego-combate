@@ -2,6 +2,6 @@ import { Item } from "./Item";
 
 export class Soldado extends Item {
     constructor() {
-        super(1);
+        super(100);
     }
 }
