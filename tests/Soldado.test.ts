@@ -2,7 +2,7 @@ import { describe, expect, test } from "vitest";
 import { Soldado } from "../src/Soldado";
 
 describe("Soldado", () => {
-    test("should be alive when created", () => {
+    test("debe estar vivo al crearse", () => {
         const soldado = new Soldado();
         expect(soldado.estaVivo()).toBe(true);
     });
