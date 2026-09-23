@@ -4,7 +4,7 @@ import { Arma2 } from "../src/Arma2";
 describe("Arma2", () => {
   test("al disparar hace daño", () => {
     const arma2 = new Arma2();
-    expect(arma2.disparar()).toBe(300);   //hace 100 de daño
+    expect(arma2.disparar()).toBe(300);   //hace 300 de daño
   });
 
   test("cada disparo descuenta una munición", () => {
